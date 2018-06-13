@@ -1,0 +1,1 @@
+# http://postolenko.github.io/seomind/index.html
