@@ -749,7 +749,8 @@ textarea:focus {
 /*-- Section 4 - Main Page --*/
 
 .single-bg {
-    background-position: fixed;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     height: 300px;
 }
@@ -831,7 +832,7 @@ textarea:focus {
     cursor: pointer;
     min-height: 280px;
     margin: 11px 0;
-    padding: 10px 1%;
+    padding: 30px 1% 10px 1%;
     text-align: center;
     background-color: rgba(248, 247, 250, 0);
     -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0);
@@ -890,7 +891,7 @@ textarea:focus {
     max-width: 100%;
     max-height: 100%;
     position: relative;
-    top: -17px;
+    top: 0;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
