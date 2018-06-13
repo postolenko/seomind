@@ -16,13 +16,13 @@ $(window).load(function() {
 
     // });
 
-    getPromoSliderHeight();
+    // getPromoSliderHeight();
 
 });
 
 $(window).resize(function() {
 
-    getPromoSliderHeight();
+    // getPromoSliderHeight();
 
 });
 

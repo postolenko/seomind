@@ -477,7 +477,8 @@ textarea:focus {
 }
 
 .promo-slider .slide {
-    height: 100vh;
+    /*height: 100vh;*/
+    height: 650px;
     overflow: hidden;
     position: relative;
 }
@@ -1155,7 +1156,7 @@ textarea:focus {
     display: inline-table;
     vertical-align: top;
     width: 25%;
-    margin: 2px 0;
+    /*margin: 2px 0;*/
     padding: 0 0 12px 0;
     text-align: center;
     background-color: rgb(255, 255, 255);
