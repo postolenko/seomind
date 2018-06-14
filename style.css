@@ -521,19 +521,84 @@ textarea:focus {
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
+.header_wrapp {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+
 .header-site {
     padding: 10px 0 8px 0;
     background-color: #fbfbfb;
+    -webkit-transition-property: padding;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: padding;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: padding;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: padding;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: padding;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .header-site .left {
     width: 40%;
     padding: 10px 1% 10px 0;
+    -webkit-transition-property: padding;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: padding;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: padding;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: padding;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: padding;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .header-site .right {
     width: 60%;
     padding: 10px 0 10px 1%;
+    -webkit-transition-property: padding;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: padding;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: padding;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: padding;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: padding;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .logo {
@@ -585,15 +650,10 @@ textarea:focus {
     border-bottom: 1px solid #bf8972;
 }
 
-/*-------------------------------------------*/
-/* ----- CONTENT ------ */
-/*-------------------------------------------*/
-
 /*-- Nav Menu --*/
 
 .nav-menu_wrapp {
     background-color: #6392de;
-    margin: 9px 0;
 }
 
 .nav-menu_wrapp .left {
@@ -602,7 +662,7 @@ textarea:focus {
 
 .nav-menu_wrapp .right {
     width: 210px;
-    padding: 7px 0 5px 0;
+    padding: 3px 0;
     text-align: right;
 }
 
@@ -631,9 +691,9 @@ textarea:focus {
 .nav-menu li a {
     display: block;
     overflow: hidden;
-    padding: 17px 2% 17px 2%;
+    padding: 13px 2%;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
     position: relative;
     color: #ffffff;
     z-index: 3;
@@ -700,7 +760,6 @@ textarea:focus {
 }
 
 .nav-menu li a:hover {
-    /*background-color: #bf8972;*/
     z-index: 2;
 }
 
@@ -718,8 +777,8 @@ textarea:focus {
 }
 
 .tel-link {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 21px;
+    line-height: 21px;
     color: #ffffff;
 }
 
@@ -755,7 +814,33 @@ textarea:focus {
     color: #de9f84;
 }
 
+.header_wrapp.scrollposition {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+
+.scrollposition .header-site {
+    padding: 0;
+}
+
+.scrollposition .header-site .left {
+    padding: 7px 1% 5px 0;
+}
+
+.scrollposition .header-site .right {
+    padding: 1px 0 3px 1%;
+}
+
+.scrollposition .logo {
+    max-width: 208px;
+}
+
 /*-- /Nav Menu --*/
+
+/*-------------------------------------------*/
+/* ----- CONTENT ------ */
+/*-------------------------------------------*/
 
 /*-- Section 1 - Main Page --*/
 
@@ -2083,6 +2168,7 @@ textarea:focus {
 }
 
 .thumb_7 .inner {
+    display: block;
     height: 300px;
     position: relative;
     overflow: hidden;
@@ -2131,17 +2217,17 @@ textarea:focus {
     transition-timing-function: ease;
 }
 
-.thumb_7:link .mask,
-.thumb_7:visited .mask {
+.thumb_7 .inner:link .mask,
+.thumb_7 .inner:visited .mask {
     left: -100%;
 }
 
-.thumb_7:active .mask,
-.thumb_7.active .mask {
+.thumb_7 .inner:active .mask,
+.thumb_7 .inner.active .mask {
     left: 0;
 }
 
-.thumb_7:hover .mask {
+.thumb_7 .inner:hover .mask {
     left: 0;
 }
 
