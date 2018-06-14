@@ -18,11 +18,25 @@ $(window).load(function() {
 
     // getPromoSliderHeight();
 
+    getAnimation();
+
+    $(".contacts-sect").addClass("active");
+    getMapSectParams();
+
 });
 
 $(window).resize(function() {
 
     // getPromoSliderHeight();
+    getMapSectParams();
+
+});
+
+$(document).scroll(function() {
+
+  getAnimation();
+
+  onScroll();
 
 });
 
@@ -40,6 +54,33 @@ $(document).ready(function() {
 
 	});
 
+	getAnimation();
+
+    onScroll();
+
+    $('.top-nav a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+            menu = target;
+            $target = $(target);
+
+        if( $target.length > 0 ) {
+        
+            $('a').each(function () {
+                $(this).removeClass('active');
+            });
+
+            $(this).addClass('active');
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top+2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+            });
+        }
+
+    });
+
 });
 
 function getPromoSliderHeight() {
@@ -49,5 +90,58 @@ function getPromoSliderHeight() {
 	$(".promo-slider .slide").css({
 		"height" : $(window).height() - headerHeight + "px"
 	});
+
+}
+
+
+function getMapSectParams() {
+
+	$(".contacts_inner").css({
+		"height" : $(".contacts-sect .contacts-thumbs").outerHeight(true) + "px"
+	});
+
+	$(".contacts_inner #map").css({
+		"height" : $(".contacts-sect .contacts-thumbs").outerHeight(true) + "px"
+	});
+
+	console.log($(".contacts-sect .contacts-thumbs").outerHeight(true));
+
+}
+
+function getAnimation() {
+
+  $("section").each(function() {
+
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height() ) {
+
+      $(this).addClass("active");
+
+    }
+
+  });  
+
+}
+
+function onScroll(event){
+
+    var scrollPos = $(document).scrollTop();
+
+    $('.top-nav a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+
+        if( refElement.length > 0 ) {
+
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('.top-nav li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else{
+                currLink.removeClass("active");
+            }
+
+        }
+
+    });
 
 }
