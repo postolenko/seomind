@@ -46,17 +46,19 @@ $(document).ready(function() {
 
 		// console.log( $(this).index() );
 
-		// if( $(this).index() != 0 && $(this).index() % 2 == 0 ) {
+		if( $(this).index() != 0 && $(this).index() % 2 == 0 && $(this).is(":odd") ) {
 
-		// 	$(this).addClass("n3");
+			$(this).addClass("n3");
 
-		// }
+		}
 
 	});
 
 	getAnimation();
 
     onScroll();
+
+    $("input[type='tel']").mask("+7 (999) 999-99-99");
 
     $('.top-nav a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -81,6 +83,15 @@ $(document).ready(function() {
 
     });
 
+    $( ".nav-menu li" ).bind({
+	  mouseenter: function() {
+	    $( this ).prev("li").addClass( "prev_el" );
+	  },
+	  mouseleave: function() {
+	    $( this ).prev("li").removeClass( "prev_el" );
+	  }
+	});
+
 });
 
 function getPromoSliderHeight() {
@@ -103,8 +114,6 @@ function getMapSectParams() {
 	$(".contacts_inner #map").css({
 		"height" : $(".contacts-sect .contacts-thumbs").outerHeight(true) + "px"
 	});
-
-	console.log($(".contacts-sect .contacts-thumbs").outerHeight(true));
 
 }
 
