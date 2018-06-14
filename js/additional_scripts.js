@@ -16,7 +16,7 @@ $(document).ready(function() {
 
     $(".promo-slider").not(".slick-initialized").slick({
         dots: true,
-        arrows: true,
+        arrows: false,
         autoplay: true,
         autoplaySpeed: 15000,
         speed: 800,
