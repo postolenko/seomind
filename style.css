@@ -2348,7 +2348,7 @@ textarea:focus {
     display: inline-block;
     vertical-align: top;
     width: 23%;
-    margin: 16px 0;
+    margin: 16px 1%;
     padding: 24px 1.5% 7px 1.5%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
