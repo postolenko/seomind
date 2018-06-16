@@ -2498,10 +2498,6 @@ textarea:focus {
 
 /*-- Section 21 - Main Page --*/
 
-.contacts-sect {
-    padding: 77px 0 0 0;
-}
-
 .contacts_inner {
     position: relative;
     z-index: 2;
