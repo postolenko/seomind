@@ -7,7 +7,7 @@ if( document.getElementById("map") ) {
 
 	function initMap() {
 
-		if( bodyWidth > 900 ) {
+		if( bodyWidth > 1240 ) {
 
 
 			latCoord = 55.673621;
