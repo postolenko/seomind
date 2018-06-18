@@ -2695,6 +2695,7 @@ textarea:focus {
     vertical-align: top;
     width: 100%;
     max-width: 472px;
+    min-height: 396px;
     margin: 14px;
     padding: 24px 4.5% 5px 4.5%;
     background: rgba(99, 146, 222, .8);
