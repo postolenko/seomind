@@ -195,7 +195,8 @@ h1 {
 }
 
 h2 {
-    padding: 20px 0;
+    /*padding: 20px 0;*/
+    padding: 10px 0;
     text-align: center;
     text-transform: uppercase;
     font-family: "PT Sans" ,"Arial", "Verdana", sans-serif;
@@ -554,7 +555,7 @@ textarea:focus {
 
 .header-site .left {
     width: 40%;
-    padding: 10px 1% 10px 0;
+    padding: 0 1% 0 0;
     -webkit-transition-property: padding;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -579,7 +580,7 @@ textarea:focus {
 .header-site .right {
     width: 60%;
     overflow: hidden;
-    padding: 10px 0 10px 1%;
+    padding: 0 0 0 1%;
     -webkit-transition-property: padding;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
@@ -691,7 +692,7 @@ textarea:focus {
 .nav-menu li a {
     display: block;
     overflow: hidden;
-    padding: 13px 2%;
+    padding: 11px 2%;
     font-size: 18px;
     line-height: 20px;
     position: relative;
@@ -767,6 +768,10 @@ textarea:focus {
     background-color: transparent;
 }
 
+.nav-menu li.active a:after {
+    background-color: transparent;
+}
+
 .nav-menu li.prev_el a:after {
     background-color: transparent;
 }
@@ -776,9 +781,15 @@ textarea:focus {
     opacity: 1;
 }
 
+.nav-menu li.active:before {
+    left: 0;
+    opacity: 1;
+}
+
 .tel-link {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -1118,7 +1129,7 @@ textarea:focus {
 }
 
 .search_wrapp {
-    padding: 35px 0 29px 0;
+    padding: 20px 0 0px 0;
 }
 
 .search {
@@ -1739,10 +1750,6 @@ textarea:focus {
     line-height: 18px;
 }
 
-.two-cols_2 {
-
-}
-
 .two-cols_2 .left {
     width: 66%;
 }
@@ -2322,7 +2329,7 @@ textarea:focus {
 .price {
     text-transform: uppercase;
     font-size: 34px;
-    line-height: 40px;
+    line-height: 41px;
     font-weight: bold;
     color: #bf8972;
 }
@@ -2437,7 +2444,7 @@ textarea:focus {
 /*-- Section 17 - Main Page --*/
 
 .bg_8 {
-    background-image: url(img/bg_08.jpg);
+    background-image: url(img/bg_08_1.jpg);
 }
 
 /*-- /Section 17 - Main Page --*/
