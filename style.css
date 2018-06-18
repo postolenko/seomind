@@ -1073,9 +1073,12 @@ textarea:focus {
     height: 650px;
     overflow: hidden;
     position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.promo-slider .slide img {
+/*.promo-slider .slide img {
     display: block;
     min-width: 100%;
     min-height: 100%;
@@ -1090,7 +1093,7 @@ textarea:focus {
 .promo-slider .sl-topimg img {
     bottom: unset;
     top: 0;
-}
+}*/
 
 .promo-slider_controls {
     width: 100%;

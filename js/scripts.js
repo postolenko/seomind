@@ -88,7 +88,7 @@ $(document).ready(function() {
 
             $(this).addClass('active');
             $('html, body').stop().animate({
-                'scrollTop': $target.offset().top - 10
+                'scrollTop': $target.offset().top - 70
             }, 500, 'swing', function () {
                 window.location.hash = target;
             });
