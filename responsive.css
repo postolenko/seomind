@@ -930,6 +930,14 @@
 	}
 
 	/*-- /Section 16 - Main Page --*/
+
+	/*-- Section 20 - Main Page --*/
+
+	.soc-links li {
+	    margin: 2px;
+	}
+
+	/*-- /Section 20 - Main Page --*/
 	
 }
 
