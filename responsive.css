@@ -798,6 +798,35 @@
 
 	/*-- /Header --*/
 
+	/*-- Section 1 - Main Page --*/
+
+	.slide-descript {
+	    width: 96%;
+	    min-width: 96%;
+	}
+
+	.promo-slider .slide:nth-child(1) .slide-descript {
+	    top: 9%;
+	    left: 2%;
+	}
+
+	.promo-slider .slide:nth-child(2) .slide-descript {
+	    bottom: 13%;
+	    right: 2%;
+	}
+
+	.promo-slider .slide:nth-child(3) .slide-descript {
+	    bottom: 13%;
+	    left: 2%;
+	}
+
+	.promo-slider .slide:nth-child(4) .slide-descript {
+	    top: 9%;
+	    right: 2%;
+	}
+
+	/*-- /Section 1 - Main Page --*/
+
 	/*-- Section 5 - Main Page --*/
 
 	.thumb_2 {
