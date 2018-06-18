@@ -185,6 +185,14 @@ function getPromoSliderHeight() {
 
 function getMapSectParams() {
 
+    $(".contacts_inner").css({
+        "height" : "auto"
+    });
+
+    $(".contacts_inner #map").css({
+        "height" : "auto"
+    });
+
     if ( bodyWidth >= 1240 ) {
 
     	$(".contacts_inner").css({
