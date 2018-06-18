@@ -510,15 +510,19 @@
 
 	/*-- Section 1 - Main Page --*/
 
-	.promo-slider .slide .slide_bg.desc_bg {
+	.promo-slider .slide .desc_bg {
 		display: none;
 	}
 
-	.promo-slider .slide .slide_bg.resp_bg {
+	.promo-slider .slide .resp_bg {
 	    display: block;
 	}
 
 	.promo-slider .slide .sl_2 {
+		background-position: left center;
+	}
+
+	.promo-slider .slide .sl_4 {
 		background-position: left center;
 	}
 
