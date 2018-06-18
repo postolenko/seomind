@@ -1595,8 +1595,6 @@ textarea:focus {
 /*-- Section 7 - Main Page --*/
 
 .article_3 {
-    /*margin: 29px 0;*/
-    /*padding-top: 20px;*/
     background-color: #3e8ccc;
     background-image: url(img/bg_03.jpg);
     background-size: cover;
@@ -1769,7 +1767,6 @@ textarea:focus {
 /*-- Section 10 - Main Page --*/
 
 .sect-10 {
-    /*padding-bottom: 19px;*/
     padding: 20px 0 19px 0;
 }
 
@@ -3060,3 +3057,15 @@ section.active .fadeInUp {
 }
 
 /*-- /Animation --*/
+
+
+/*-- IE --*/
+
+.ie .thumb-3 .col-1 img {
+    top: 0;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+/*-- /IE --*/
