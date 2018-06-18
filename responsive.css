@@ -19,10 +19,7 @@
 	}
 
 	.nav-menu li a {
-		padding-top: 13px;
-		padding-bottom: 13px;
 	    font-size: 16px;
-	    line-height: 18px;
 	}
 
 	/*-- /Header --*/
@@ -264,7 +261,7 @@
 	.contacts_resp {
 		display: inline-block;
 		vertical-align: top;
-		margin: 10px 2%;
+		margin: 0 2%;
 	}
 
 	.respmenubtn {
@@ -786,7 +783,7 @@
 
 	.header-site .left {
 		width: 35%;
-		padding: 16px 1% 5px 0;
+		padding: 12px 1% 5px 0;
 	}
 
 	.header-site .right {
@@ -794,16 +791,12 @@
 	}
 
 	.contacts_resp {
-	    margin: 5px 1%;
+	    margin: 0 1%;
 	}
 
 	.tel-link {
 	    font-size: 16px;
 	    line-height: 16px;
-	}
-
-	.respmenubtn {
-	    top: 4px;
 	}
 
 	.scrollposition .header-site .left {

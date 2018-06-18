@@ -973,7 +973,7 @@ textarea:focus {
     cursor: pointer;
     z-index: 13;
     position: relative;
-    top: 10px;
+    top: 0;
     right: 0;
     margin-left: 3%;
     border: 1px solid transparent;
