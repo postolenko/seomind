@@ -18,9 +18,9 @@
 	    width: calc(170px);
 	}
 
-/*	.header-site {
-	    padding: 0;
-	}*/
+	.header-site {
+	    padding: 5px 0;
+	}
 
 	.nav-menu li a {
 		padding-top: 13px;
