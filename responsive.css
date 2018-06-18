@@ -926,7 +926,8 @@
 	/*-- Section 20 - Main Page --*/
 
 	.soc-links li {
-	    margin: 2px;
+	    /*margin: 2px;*/
+	    margin: 2px 0;
 	}
 
 	/*-- /Section 20 - Main Page --*/
