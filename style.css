@@ -1305,6 +1305,7 @@ textarea:focus {
 .articles_1_wrapp .left .article_1:nth-child(even) .img-box {
     right: 0;
     left: unset;
+    left: auto;
 }
 
 .articles_1_wrapp .left .article_1:nth-child(even) .descript {
@@ -1314,6 +1315,7 @@ textarea:focus {
 .articles_1_wrapp .right .article_1 .img-box {
     position: relative;
     left: unset;
+    left: auto;
     width: 100%;
     min-height: 265px;
 }
@@ -2049,7 +2051,7 @@ textarea:focus {
     position: absolute;
     top: 5px;
     left: unset;
-    left: none;
+    left: auto;
     right: 0;
 }
 
