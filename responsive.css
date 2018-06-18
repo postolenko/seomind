@@ -510,11 +510,11 @@
 
 	/*-- Section 1 - Main Page --*/
 
-	.promo-slider .slide .desc_bg {
+	.promo-slider .slide .slide_bg.desc_bg {
 		display: none;
 	}
 
-	.promo-slider .slide .resp_bg {
+	.promo-slider .slide .slide_bg.resp_bg {
 	    display: block;
 	}
 
