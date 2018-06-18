@@ -770,6 +770,8 @@
 
 	.price_thumb {
 	    width: 100%;
+	    margin-left: 0;
+	    margin-right: 0;
 	    padding: 24px 15px 7px 15px;
 	}
 
