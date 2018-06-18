@@ -1677,6 +1677,7 @@ textarea:focus {
 .thumb-3:visited {
     -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .35);
     -moz-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .35);
+    -ms-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .35);
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .35);
 }
 
