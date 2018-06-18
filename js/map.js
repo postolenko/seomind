@@ -9,14 +9,13 @@ if( document.getElementById("map") ) {
 
 		if( bodyWidth > 1240 ) {
 
-
 			latCoord = 55.673621;
-			lngCoord = 37.4933593;
+			lngCoord = 37.4925593;
 
 		} else {
 			
 			latCoord = 55.673621;
-			lngCoord = 37.4953593;
+			lngCoord = 37.4975593;
 
 		}
 
@@ -31,7 +30,7 @@ if( document.getElementById("map") ) {
 			map: map,
 			draggable: false,
 			animation: google.maps.Animation.DROP,
-			position: {lat: 55.673621, lng: 37.4975493},
+			position: {lat: 55.673621, lng: 37.4975593},
 			map: map,
 			title: 'SEOMIND'
 		});
