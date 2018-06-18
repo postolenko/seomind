@@ -10,6 +10,10 @@ var headerTopCoord;
 
 // ----------------
 
+var slideHeight
+
+// ----------------
+
 var thumbsHeightArr;
 var thumb;
 var thumbHeight;
@@ -19,6 +23,14 @@ var maxThumbHeight;
 
 var screenParam;
 var indexElem;
+
+// -----------------
+
+var scrollPos;
+var currLink;
+var refElement;
+
+// -----------------
 
 $(window).load(function() {
 
@@ -174,7 +186,7 @@ function getTopWrappPadding() {
 
 function getPromoSliderHeight() {
 
-	var slideHeight = $(window).height() - $(".header_wrapp").height() - $(".search_wrapp").outerHeight();
+	slideHeight = $(window).height() - $(".header_wrapp").height() - $(".search_wrapp").outerHeight();
 
 	$(".promo-slider .slide").css({
 		"height" : slideHeight + "px"
@@ -233,11 +245,11 @@ function getAnimation() {
 
 function onScroll(event){
 
-    var scrollPos = $(document).scrollTop() + $(".header_wrapp").height();
+    scrollPos = $(document).scrollTop() + $(".header_wrapp").height();
 
     $('.navigation a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
+        currLink = $(this);
+        refElement = $(currLink.attr("href"));
 
         if( refElement.length > 0 ) {
 
@@ -251,6 +263,10 @@ function onScroll(event){
 
                     $( this ).closest("li").prev("li").addClass( "prev_el" );
 
+                } else if(bodyWidth <= 900) {
+
+                    $(this).closest("li").addClass("active");
+
                 }
 
             }
@@ -262,6 +278,10 @@ function onScroll(event){
                     $(this).closest("li").removeClass("active");
 
                     $( this ).closest("li").prev("li").removeClass( "prev_el" );
+
+                } else if(bodyWidth <= 900) {
+
+                    $(this).closest("li").removeClass("active");
 
                 }
 

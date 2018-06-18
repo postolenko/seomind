@@ -187,7 +187,6 @@ textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s e
 
 section {
     position: relative;
-    /*padding: 20px 0;*/
 }
 
 h1 {
@@ -195,7 +194,6 @@ h1 {
 }
 
 h2 {
-    /*padding: 20px 0;*/
     padding: 10px 0;
     text-align: center;
     text-transform: uppercase;
@@ -1069,7 +1067,6 @@ textarea:focus {
 }
 
 .promo-slider .slide {
-    /*height: 100vh;*/
     height: 650px;
     overflow: hidden;
     position: relative;
@@ -1089,23 +1086,6 @@ textarea:focus {
 .promo-slider .slide .resp_bg {
     display: none;
 }
-
-/*.promo-slider .slide img {
-    display: block;
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-    -moz-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
-}
-
-.promo-slider .sl-topimg img {
-    bottom: unset;
-    top: 0;
-}*/
 
 .promo-slider_controls {
     width: 100%;
@@ -2343,14 +2323,6 @@ textarea:focus {
     width: auto;
     height: auto;
     max-width: 100%;
-/*    min-width: 100%;
-    min-height: 100%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);*/
 }
 
 .table {
@@ -2521,7 +2493,6 @@ textarea:focus {
     display: inline-block;
     vertical-align: top;
     width: 23%;
-    /*min-width: 270px;*/
     margin: 16px 1%;
     padding: 24px 1.5% 7px 1.5%;
     -webkit-border-radius: 5px;
@@ -3058,7 +3029,6 @@ section.active .fadeInUp {
 }
 
 /*-- /Animation --*/
-
 
 /*-- IE --*/
 
