@@ -1975,7 +1975,7 @@ textarea:focus {
     display: table-cell;
     vertical-align: middle;
     width: auto;
-    padding: 0 10px 0 0;
+    padding: 0 10px 0 5px;
 }
 
 .thumb-5 .img-box {
