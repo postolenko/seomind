@@ -18,11 +18,13 @@
 	    width: calc(170px);
 	}
 
-	.header-site {
+/*	.header-site {
 	    padding: 0;
-	}
+	}*/
 
 	.nav-menu li a {
+		padding-top: 13px;
+		padding-bottom: 13px;
 	    font-size: 16px;
 	    line-height: 18px;
 	}
@@ -217,7 +219,6 @@
 	.header-site .right {
 	    width: 50%;
 	    text-align: right;
-	    padding: 0 0 0 1%;
 	    overflow: none;
 	}
 
