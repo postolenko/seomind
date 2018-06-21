@@ -386,6 +386,59 @@ textarea:focus {
     border-color: #bf8972;
 }
 
+/*-- Breadcrumbs --*/
+
+.breadcrumbs {
+    margin: 9px 0;
+}
+
+.breadcrumbs ul {
+
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.breadcrumbs ul li:after {
+    content: "\2f";
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+/*    position: relative;
+    top: 1px;*/
+    margin: 1px 0 0 2px;
+}
+
+.breadcrumbs ul li:last-child:after {
+    display: none;
+}
+
+.breadcrumbs ul li a {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.home {
+    display: inline-block;
+    vertical-align: top;
+    width: 14px;
+    height: 11px;
+    background-image: url(img/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.breadcrumbs ul li a .home {
+    position: relative;
+    top: 4px;
+}
+
+/*-- /Breadcrumbs --*/
+
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -2852,6 +2905,482 @@ textarea:focus {
 
 /*-- /Section 20 - Main Page --*/
 
+/*-- Section 1 Cabinet --*/
+
+.sect-1_cabinet {
+    padding: 0;
+}
+
+.two-cols_3 {
+    max-width: 1115px;
+    margin: 0 auto;
+}
+
+.two-cols_3 .left {
+    width: calc(100% - 660px);
+    padding: 8px;
+}
+
+.two-cols_3 .right {
+    width: 660px;
+    padding: 8px;
+}
+
+.white_box {
+    min-height: 301px;
+    padding: 12px 8px 10px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.white_box_2 {
+    padding: 10px 7%;
+}
+
+.white_box h3 {
+    padding: 24px 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #6392de;
+}
+
+.two-cols_4 {
+    margin: 11px 0;
+}
+
+.two-cols_4 .left {
+    width: 50%;
+    padding: 0 4px 0 0;
+}
+
+.two-cols_4 .right {
+    width: 50%;
+    padding: 0 0 0 4px;
+}
+
+.checkbox_2 {
+    position: relative;
+}
+
+.two-cols_4 .left .checkbox_2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.checkbox_2 input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_2 label {
+    display: block;
+    cursor: pointer;
+    padding: 1px 1%;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.checkbox_2 input:checked + label {
+    background-color: #bf8972;
+    color: #ffffff;
+}
+
+.checkbox_2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    position: relative;
+}
+
+.checkbox_2 input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_2 label {
+    display: block;
+    cursor: pointer;
+    padding: 1px 1%;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.checkbox_2 input:checked + label {
+    background-color: #bf8972;
+    color: #ffffff;
+}
+
+.two-cols_4 .right .checkbox_3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+.checkbox_3 {
+    position: relative;
+}
+
+.checkbox_3 input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_3 label {
+    display: block;
+    cursor: pointer;
+    padding: 1px 1%;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.checkbox_3 input:checked + label {
+    text-transform: uppercase;
+    background-color: #bf8972;
+    color: #ffffff;
+}
+
+.checkbox_3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    position: relative;
+}
+
+.checkbox_3 input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_3 label {
+    display: block;
+    min-height: 48px;
+    cursor: pointer;
+    padding: 13px 1%;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.checkbox_3 input:checked + label {
+    background-color: #bf8972;
+    color: #ffffff;
+}
+
+.two-cols_4 h3 {
+    padding: 0;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: normal;
+    color: #6392de;
+}
+
+.dates_inputs {
+    display: table;
+    white-space: 100%;
+    margin: 3px 0;
+}
+
+.dates_inputs .input_date {
+    display: table-cell;
+    vertical-align: middle;
+    width: 45%;
+}
+
+.input_date input {
+    width: 100%;
+    height: 24px;
+    padding: 0 1%;
+    border-radius: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.dates_inputs span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 10%;
+    text-align: center;
+}
+
+.dates_inputs span:before {
+    display: block;
+    content: "";
+    width: 9px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+}
+
+.pink-pill_3 {
+    min-width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 1px 2%;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.checkbox_4 {
+    position: relative;
+    margin: 3px 0;
+}
+
+.checkbox_4 input {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_4 label {
+    display: block;
+    cursor: pointer;
+    padding: 1px 1%;
+    text-align: center;
+    background-color: #fbfbfb;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.checkbox_4 input:checked + label {
+    background-color: #bf8972;
+    color: #ffffff;
+}
+
+.table_2_sect {
+    max-width: 1115px;
+    margin: 0 auto 30px auto;
+    padding: 7px 8px;
+}
+
+.table_2_wrapp {
+    padding: 20px 4.5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.table_2_wrapp h2 {
+
+}
+
+.table_2 {
+    display: table;
+    width: 100%;
+    margin: 44px 0 4px 0;
+    background-color: #ffffff;
+    border-collapse: collapse;
+}
+
+.table_2 .table-row {
+    display: table-row;
+}
+
+.table_2 .table-row:nth-child(even) {
+    background-color: #6392de;
+}
+
+.table_2 .table-row.table-header {
+    background-color: #ffffff;
+}
+
+.table_2 .table-row .cell {
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    border-left: 1px solid #d5ddea;
+    border-right: 1px solid #d5ddea;
+}
+
+.table_2 .table-row.table-header .cell {
+    border: none;
+}
+
+.table_2 .table-row:last-child .cell {
+    border-bottom: 1px solid #d5ddea;
+}
+
+.table_2 .table-row .cell:nth-child(1) {
+    width: 137px;
+    background-color: #ffffff;
+    border-left: none;
+    border-bottom: none;
+}
+
+.table_2 .table-row .cell p {
+    text-align: center;
+    padding: 6px 1%;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ababb3;
+}
+
+.table_2 .table-row:nth-child(even) .cell p {
+    color: #ffffff;
+}
+
+.table_2 .table-row .cell:nth-child(1) p {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ababb3;
+}
+
+.table_2 .table-row.table-header .cell {
+    padding: 10px 1%;
+    position: relative;
+}
+
+.table_2 .table-row.table-header .cell p {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -23px;
+    left: 13%;
+}
+
+/*-- /Section 1 Cabinet --*/
+
+/*-- Section 2 - Cabinet Page --*/
+
+.contacts-thumbs_2 {
+    width: 100%;
+    margin: 51px 0 76px 0;
+}
+
+.contacts_wrapp_2 {
+    width: 100%;
+    min-height: auto;
+    max-width: 750px;
+    padding: 9px 10px 7px 10px;
+}
+
+.contacts_wrapp_2 .left {
+    width: 51%;
+    padding: 19px 1% 5px 2%;
+}
+
+.contacts_wrapp_2 .right {
+    width: 49%;
+    padding: 0 0 0 2%;
+}
+
+.contacts_wrapp_2 .logo {
+    margin: 11px 0 18px 0;
+}
+
+.contacts_wrapp_2 .logo {
+    max-width: 100%;
+}
+
+.seo-text {
+
+}
+
+.seo-text li {
+    padding: 3px 0;
+}
+
+.seo-text li a {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fffefe;
+}
+
+.seo-text li a:link,
+.seo-text li a:visited {
+    color: #fffefe;
+}
+
+.seo-text li a:active,
+.seo-text li a.active {
+    color: #e29d82;
+}
+
+.seo-text li a:hover {
+    color: #e29d82;
+}
+
+.border {
+    padding: 8px 4% 1px 4%;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.pink-pill_4 {
+    min-width: 205px;
+    margin: 5px 0;
+    padding: 6px 2%;
+    text-transform: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+/*-- /Section 2 - Cabinet Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

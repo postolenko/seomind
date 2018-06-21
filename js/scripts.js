@@ -205,7 +205,7 @@ function getMapSectParams() {
         "height" : "auto"
     });
 
-    if ( bodyWidth >= 1240 ) {
+    if ( bodyWidth >= 1230 ) {
 
     	$(".contacts_inner").css({
     		"height" : $(".contacts-sect .contacts-thumbs").outerHeight(true) + "px"
