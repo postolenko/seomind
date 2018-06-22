@@ -3214,9 +3214,9 @@ textarea:focus {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
 }
 
-.table_2_wrapp h2 {
+/*.table_2_wrapp h2 {
 
-}
+}*/
 
 .table_2 {
     display: table;
@@ -3421,8 +3421,96 @@ textarea:focus {
     line-height: 16px;
 }
 
-
 /*-- /Section 2 - Cabinet Page --*/
+
+/*-- Section 1 Inner Page --*/
+
+.promo_inner {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.promo_inner .row {
+    position: relative;
+    height: 500px;
+}
+
+.promo_inner h1 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.inner-article {
+    padding: 26px 0 35px 0;
+}
+
+.inner-article h3 {
+    /*padding: 11px 0 21px 0;*/
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.inner-article p {
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.inner-article ol {
+    padding: 10px 0 10px 3%;
+}
+
+.inner-article li {
+    position: relative;
+    padding: 2px 0 2px 3%;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.inner-article ol li:before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: #6392de;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*.inner-article h3 + ol {
+    padding-top: 0;
+}*/
+
+/*.inner-article ol + p {
+    padding-top: 23px;
+}*/
+
+/*.inner-article p + ol {
+    padding-top: 8px;
+}
+
+.inner-article ol + p {
+    padding-top: 20px;
+}*/
+
+/*-- /Section 1 Inner Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
