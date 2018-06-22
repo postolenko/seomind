@@ -9,6 +9,10 @@ $(window).on("load",function(){
 
 	$(".scroll").mCustomScrollbar();
 
+    $(".scroll_horizontal").mCustomScrollbar({
+        axis: "x"
+    });
+
 });
 
 $(document).ready(function() {		
@@ -118,6 +122,18 @@ $(document).ready(function() {
 
         $("[data-slider = '"+sliderName+"'] .slick-dots li[data-index-sl = '"+ indexSlide +"'] button").trigger( "click" );
 
+    });
+
+    new Chartist.Line('.ct-chart', {
+      labels: [0,2,6,8,13,15,18,20,23,27,30,0],
+      series: [
+        [0, 1700, 2500, 6500, 1900, 1500, 2500, 2700, 1700, 400, 2000, 0]
+        // [0, 2000, 2700, 6700, 2100, 1900, 2000, 3400, 2100, 1400, 2700, 0]
+      ]
+    }, {
+      low: 0,
+      showArea: true,
+      fullWidth: true
     });
 
 });

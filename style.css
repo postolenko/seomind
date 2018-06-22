@@ -3204,7 +3204,7 @@ textarea:focus {
 }
 
 .table_2_wrapp {
-    padding: 20px 4.5%;
+    padding: 20px 4%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -3220,7 +3220,8 @@ textarea:focus {
 
 .table_2 {
     display: table;
-    width: 100%;
+    /*width: 100%;*/
+    width: 990px;
     margin: 44px 0 4px 0;
     background-color: #ffffff;
     border-collapse: collapse;
@@ -3241,7 +3242,8 @@ textarea:focus {
 .table_2 .table-row .cell {
     display: table-cell;
     vertical-align: top;
-    width: auto;
+    /*width: auto;*/
+    width: 30px;
     border-left: 1px solid #d5ddea;
     border-right: 1px solid #d5ddea;
 }
@@ -3255,7 +3257,7 @@ textarea:focus {
 }
 
 .table_2 .table-row .cell:nth-child(1) {
-    width: 137px;
+    width: 137px !important;
     background-color: #ffffff;
     border-left: none;
     border-bottom: none;
@@ -3293,6 +3295,46 @@ textarea:focus {
     position: absolute;
     top: -23px;
     left: 13%;
+}
+
+.chart_wrapp {
+    background: #3b3d4d;
+    padding: 13px 2% 14px 1%;
+}
+
+.chart_wrapp h3 {
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.ct-chart {
+    height: 200px;
+}
+
+.requests {
+    padding: 0 0 0 46px;
+}
+
+.requests .col {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.requests p {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.requests p .red {
+    font-size: 30px;
+    line-height: 32px;
+    color: #bf8972;
 }
 
 /*-- /Section 1 Cabinet --*/

@@ -130,6 +130,13 @@
 
 	/*-- /Section 20 - Main Page --*/
 
+	.contacts_wrapp_2 {
+	    width: 100%;
+	    float: none;
+	    margin: 15px 0;
+	    max-width: 100%;
+	}
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -163,6 +170,30 @@
 	}
 
 	/*-- /Section 12 - Main Page --*/
+
+	/*-- Section 1 Cabinet --*/
+
+	.two-cols_3 > .left {
+		width: 100%;
+	    max-width: 660px;
+	    float: none;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	.two-cols_3 > .right {
+		width: 100%;
+	    max-width: 660px;
+	    float: none;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	.table_2_wrapp {
+	    padding: 20px 3%;
+	}
+
+	/*-- /Section 1 Cabinet --*/
 
 }
 
@@ -614,6 +645,21 @@
 
 	/*-- /Section 12 - Main Page --*/
 
+	/*-- Section 2 - Cabinet Page --*/
+
+	.contacts_wrapp_2 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 2%;
+	}
+
+	.contacts_wrapp_2 .right {
+	    width: 100%;
+	    padding: 10px 2%;
+	}
+
+	/*-- /Section 2 - Cabinet Page --*/
+
 	/*-- Footer --*/
 
 	.footer {
@@ -933,6 +979,64 @@
 	}
 
 	/*-- /Section 20 - Main Page --*/
+
+	/*-- Section 1 - Cabinet Page --*/
+
+	.two-cols_4 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	.two-cols_4 .right {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	.white_box h3 {
+		padding: 13px 0 0 0;
+		font-size: 21px;
+		line-height: 26px;
+	}
+
+	.two-cols_4 {
+	    margin: 4px 0;
+	}
+
+	.requests {
+	    padding: 0 2%;
+	}
+
+	.requests .col {
+	    width: 100%;
+	}
+
+	.requests p {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+
+	.table_2_wrapp h2 {
+	    font-size: 25px;
+	    line-height: 32px;
+	}
+
+	/*-- /Section 1 - Cabinet Page --*/
+
+	/*-- Section 2 - Cabinet Page --*/
+
+	.contacts_links p a.tel-link {
+	    font-size: 32px;
+	    line-height: 36px;
+	}
+
+	.contacts_links p a {
+	    font-size: 22px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 2 - Cabinet Page --*/
 	
 }
 
