@@ -25,3 +25,13 @@
 # http://postolenko.github.io/seomind/socmedia.html
 # http://postolenko.github.io/seomind/socials.html
 # http://postolenko.github.io/seomind/links_enviroment.html
+# http://postolenko.github.io/seomind/price_smm.html
+# http://postolenko.github.io/seomind/price.html
+# http://postolenko.github.io/seomind/tic.html
+# http://postolenko.github.io/seomind/uniqueness_content.html
+# http://postolenko.github.io/seomind/uniqueness_design.html
+# http://postolenko.github.io/seomind/reputation_smm.html
+# http://postolenko.github.io/seomind/firm_style.html
+# http://postolenko.github.io/seomind/auditory_smm.html
+# http://postolenko.github.io/seomind/kontext_types.html
+# http://postolenko.github.io/seomind/effectiveness.html
