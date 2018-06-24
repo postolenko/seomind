@@ -266,6 +266,7 @@
 	    transition-duration: .3s;
 	    transition-timing-function: ease;
 	}
+	
 	.top-nav li:hover:before {
 	    left: 0;
 	    opacity: 1;
@@ -1068,6 +1069,23 @@
 	}
 
 	/*-- /Section 1 Inner Page --*/
+
+	/*-- Popups --*/
+
+	.popup {
+	    margin: 70px auto 20px auto;
+	}
+
+	.close-popup {
+	    top: 10px;
+	}
+
+	.popup .pink-pill_5 {
+		width: 100%;
+		min-width: 300px;
+	}
+
+	/*-- /Popups --*/
 	
 }
 

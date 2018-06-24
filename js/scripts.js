@@ -85,6 +85,7 @@ $(document).ready(function() {
     onScroll();
 
     $("input[type='tel']").mask("+7 (999) 999-99-99");
+    $(".date_input").mask("99.99.9999");
 
     $('.navigation a[href^="#"]').on('click', function (e) {
         e.preventDefault();
@@ -153,6 +154,55 @@ $(document).ready(function() {
                 $(".resp-nav_wrapp").fadeOut(300);
 
                 $(".respmenubtn").removeClass("active");
+        }
+
+    });
+
+    // -------------------
+
+    $(".show_popup").click(function(e) {
+
+        e.preventDefault();
+
+        popupName = $(this).attr("data-popup-name");
+        popupBlock = $("[data-popup = '"+ popupName +"']");
+
+        popupBlock.fadeIn(400);
+
+    });
+
+     $(this).keydown(function(eventObject){
+
+        if (eventObject.which == 27) {
+
+            if ( popupBlock.is(":visible") ) {
+
+                popupBlock.fadeOut(300);
+
+            }
+
+        }
+
+    });
+
+    $(".close-popup").click(function() {
+
+        popupBlock = $(this).closest(".popup_wrapp");
+
+        popupBlock.fadeOut(300);
+
+    });
+
+
+    $(document).mouseup(function (e){
+
+        hide_element = $('.popup');
+
+        if (!hide_element.is(e.target)
+
+            && hide_element.has(e.target).length === 0) {
+
+            hide_element.closest(".popup_wrapp").fadeOut(300);
         }
 
     });

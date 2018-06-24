@@ -27,6 +27,52 @@
 
 	<div class="wrapper">
 
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<h3>Авторизироваться</h3>
+			<div class="form_wrapp">
+				<div class="input_wrapp">
+					<input type="text" placeholder="Логин">
+				</div>
+				<div class="input_wrapp">
+					<input type="password" placeholder="Пароль">
+				</div>
+				<div class="align-center">
+					<button type="submit" class="pink-pill pink-pill_5">Вход</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<button type="button" class="close-popup">
+			<span></span>
+			<span></span>
+		</button>
+		<div class="popup">
+			<h3>Заказать звонок</h3>
+			<div class="form_wrapp">
+				<div class="input_wrapp">
+					<input type="text" placeholder="Имя">
+				</div>
+				<div class="input_wrapp">
+					<input type="tel" placeholder="+7 (___) ___-__-__. " />
+				</div>
+				<div class="align-center">
+					<button type="submit" class="pink-pill pink-pill_5">Отправить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
 	<!-- Header -->
 		
 	<header>
@@ -36,7 +82,7 @@
 			<div class="header-site">
 				<div class="row clearfix">
 					<div class="left">
-						<a href="#" class="logo">
+						<a href="index.html" class="logo">
 							<img src="img/logo.png" alt="SEOMIND" />
 						</a>
 					</div>
@@ -80,7 +126,7 @@
 					<div class="right">
 						<div class="append-elem"  data-append-desktop-elem = "3" data-min-screen = "900">
 							<a href="tel:89152669903" class="tel-link">8(915)266-99-03</a><br />
-							<a href="#" class="callback_link">заказать звонок</a>
+							<a href="#" class="callback_link show_popup" data-popup-name ="popup_2">заказать звонок</a>
 						</div>
 					</div>
 				</div>
@@ -106,7 +152,7 @@
 					<div class="row">
 						<ul>
 							<li><a href="#"><i class="home"></i></a></li>
-							<li><a href="#">Контекстная реклама</a></li>
+							<li><a href="#">Продающие тексты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -178,7 +224,7 @@
 												<p><a href="#">seomind55@gmail.com</a></p>
 											</div>
 											<p>119454, Москва,<br /> пр-т Вернадского,<br /> д. 50, стр. 1 офис 34</p>
-											<button type="submit" class="pink-pill pink-pill_4">заказать звонок</button>
+											<button type="button" class="pink-pill pink-pill_4 show_popup" data-popup-name ="popup_2">заказать звонок</button>
 										</div>
 									</div>
 								</div>

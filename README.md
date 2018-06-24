@@ -1,9 +1,10 @@
 # http://postolenko.github.io/seomind/index.html
 # http://postolenko.github.io/seomind/cabinet.html
 # http://postolenko.github.io/seomind/analiz_saita.html
-# http://postolenko.github.io/seomind/404.html
+# http://postolenko.github.io/seomind/errors_find.html
 # http://postolenko.github.io/seomind/istochnik_trafika.html
 # http://postolenko.github.io/seomind/konversia_saita.html
+# http://postolenko.github.io/seomind/konkurent_enviroment.html
 # http://postolenko.github.io/seomind/kontekstnaya_reklama.html
 # http://postolenko.github.io/seomind/mobile_version.html
 # http://postolenko.github.io/seomind/monetizaciya.html
@@ -12,6 +13,7 @@
 # http://postolenko.github.io/seomind/perelinkovka.html
 # http://postolenko.github.io/seomind/povedencheskie_factori.html
 # http://postolenko.github.io/seomind/semantichnoe_yadro.html
+# http://postolenko.github.io/seomind/podbor_auditorii.html
 # http://postolenko.github.io/seomind/support.html
 # http://postolenko.github.io/seomind/like_kontekts.html
 # http://postolenko.github.io/seomind/smm_advertisement.html
@@ -27,6 +29,7 @@
 # http://postolenko.github.io/seomind/links_enviroment.html
 # http://postolenko.github.io/seomind/price_smm.html
 # http://postolenko.github.io/seomind/price.html
+# http://postolenko.github.io/seomind/counter.html
 # http://postolenko.github.io/seomind/tic.html
 # http://postolenko.github.io/seomind/uniqueness_content.html
 # http://postolenko.github.io/seomind/uniqueness_design.html
