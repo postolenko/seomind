@@ -660,6 +660,28 @@
 
 	/*-- /Section 2 - Cabinet Page --*/
 
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 250px;
+	}
+
+	.promo_inner h1 {
+	    font-size: 25px;
+	    line-height: 29px;
+	}
+
+	.promo_inner .h1_wrapp_5 h1 {
+	   color: #333333;
+	}
+
+	.h1_wrapp .h1-desc {
+	    font-size: 21px;
+	    line-height: 26px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
+
 	/*-- Footer --*/
 
 	.footer {
@@ -1037,6 +1059,15 @@
 	}
 
 	/*-- /Section 2 - Cabinet Page --*/
+
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner h1 {
+	    font-size: 24px;
+	    line-height: 28px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
 	
 }
 
