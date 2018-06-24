@@ -1639,6 +1639,34 @@ textarea:focus {
     color: #ffffff;
 }
 
+a.title_link_2 {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+a.title_link_2:link,
+a.title_link_2:visited {
+    color: #ffffff;
+}
+
+a.title_link_2:active,
+a.title_link_2.active {
+    color: #bf8972;
+}
+
+a.title_link_2:hover {
+    color: #bf8972;
+}
+
+.article_3 .title_link_2 {
+    margin: 20px 0 17px 0;
+}
+
 .article_3 .col-2 h3 {
     padding-bottom: 5px;
     text-align: left;
@@ -1922,9 +1950,17 @@ textarea:focus {
     padding: 14px 0 10px 0;
 }
 
+.title_link_3 {
+    margin: 21px 0 0 0;
+}
+
 .article_5 {
     position: relative;
     margin: 9px 0;
+}
+
+.article_5_1 {
+    margin-top: 2px;
 }
 
 .article_5 .img-box {
@@ -2137,6 +2173,35 @@ textarea:focus {
 
 .article_6 h2 {
     padding: 18px 0 7px 0;
+    text-align: left;
+}
+
+a.title_link {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: normal;
+    color: #6392de;
+}
+
+a.title_link:link,
+a.title_link:visited {
+    color: #6392de;
+}
+
+a.title_link:active,
+a.title_link.active {
+    color: #bf8972;
+}
+
+a.title_link:hover {
+    color: #bf8972;
+}
+
+.article_6 .title_link {
+    margin: 25px 0 14px 0;
     text-align: left;
 }
 

@@ -266,7 +266,7 @@
 	    transition-duration: .3s;
 	    transition-timing-function: ease;
 	}
-	
+
 	.top-nav li:hover:before {
 	    left: 0;
 	    opacity: 1;
@@ -586,7 +586,16 @@
 	    line-height: 48px;
 	}
 
-	.article_3 .col-2 h2 {
+	.article_3 .title_link_2 {
+	    margin: 0px 0 17px 0;
+	}
+
+	a.title_link {
+	    font-size: 31px;
+	    line-height: 37px;
+	}
+
+	a.title_link_2 {
 	    font-size: 31px;
 	    line-height: 37px;
 	}
