@@ -38,3 +38,5 @@
 # http://postolenko.github.io/seomind/auditory_smm.html
 # http://postolenko.github.io/seomind/kontext_types.html
 # http://postolenko.github.io/seomind/effectiveness.html
+# http://postolenko.github.io/seomind/hosting.html
+# http://postolenko.github.io/seomind/podbor_domena.html
