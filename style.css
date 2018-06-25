@@ -3469,14 +3469,14 @@ a.title_link:hover {
     overflow: hidden;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     position: relative;
 }
 
 .promo_inner .row {
     position: relative;
-    height: 500px;
+    height: 500px !important;
     z-index: 3;
 }
 
