@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1850px) {
+@media only screen and (max-width: 1900px) {
 
 	/*-- Section 1 Inner Page --*/
 
@@ -1202,5 +1202,72 @@
 	}
 
 	/*-- /Section 16 - Main Page --*/
+
+}
+
+
+@media only screen and (max-width: 1900px) {
+
+	.promo_inner_1 {
+		background-size: 100%;
+		background-position: center 34%;
+	}
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+}
+
+@media only screen and (max-width: 1380px) {
+
+}
+
+@media only screen and (max-width: 1230px) {
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	.promo_inner_1 {
+		background-position: center 86%;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	.promo_inner_1 {
+		background-size: cover;
+		background-position: center;
+	}
 
 }
