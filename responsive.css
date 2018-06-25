@@ -1217,6 +1217,10 @@
 		background-size: 100%;
 	}
 
+	.promo_inner_3 {
+		background-position: center 78%;
+	}
+
 }
 
 @media only screen and (max-width: 1700px) {
