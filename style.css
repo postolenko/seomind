@@ -3469,7 +3469,7 @@ a.title_link:hover {
     overflow: hidden;
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     background-size: cover;
     position: relative;
 }
