@@ -3463,7 +3463,6 @@ a.title_link:hover {
     background-position: center;
     background-size: cover;
     position: relative;
-    /*outline: 1px solid blue;*/
 }
 
 .promo_inner .promo_bg_full {
@@ -3484,7 +3483,6 @@ a.title_link:hover {
     position: relative;
     height: 500px;
     z-index: 3;
-    /*outline: 1px solid red;*/
 }
 
 .promo_inner .row .img_bg {
@@ -3607,7 +3605,7 @@ a.title_link:hover {
 }
 
 .promo_inner .h1_wrapp_2 {
-    top: 80%;
+    top: 84%;
 }
 
 .promo_inner .h1_wrapp_3 {
