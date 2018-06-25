@@ -1210,7 +1210,11 @@
 
 	.promo_inner_1 {
 		background-size: 100%;
-		background-position: center 34%;
+		background-position: center 28%;
+	}
+
+	.promo_inner_2 {
+		background-size: 100%;
 	}
 
 }
@@ -1268,6 +1272,10 @@
 	.promo_inner_1 {
 		background-size: cover;
 		background-position: center;
+	}
+
+	.promo_inner_2 {
+		background-size: cover;
 	}
 
 }
