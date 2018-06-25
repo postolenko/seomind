@@ -3476,7 +3476,7 @@ a.title_link:hover {
 
 .promo_inner .row {
     position: relative;
-    height: 500px !important;
+    height: 500px;
     z-index: 3;
 }
 
