@@ -1,8 +1,28 @@
+@media only screen and (max-width: 1700px) {
+
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 400px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
+
+}
+
 @media only screen and (max-width: 1380px) {
 
 	.row {
 		padding: 0 2%;
 	}
+
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 340px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
 
 }
 
@@ -130,12 +150,24 @@
 
 	/*-- /Section 20 - Main Page --*/
 
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 340px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
+
+	/*-- Section 1 Cabinet --*/
+
 	.contacts_wrapp_2 {
 	    width: 100%;
 	    float: none;
 	    margin: 15px 0;
 	    max-width: 100%;
 	}
+
+	/*-- /Section 1 Cabinet --*/
 
 }
 
@@ -195,6 +227,14 @@
 
 	/*-- /Section 1 Cabinet --*/
 
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 270px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -207,6 +247,14 @@
 	}
 
 	/*-- /Section 8 - Main Page --*/
+
+	/*-- Section 1 Inner Page --*/
+
+	.promo_inner .row {
+	    height: 238px;
+	}
+
+	/*-- /Section 1 Inner Page --*/
 
 }
 
@@ -673,7 +721,7 @@
 	/*-- Section 1 Inner Page --*/
 
 	.promo_inner .row {
-	    height: 250px;
+	    height: 220px;
 	}
 
 	.promo_inner h1 {
