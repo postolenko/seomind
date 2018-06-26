@@ -1951,7 +1951,9 @@ a.title_link_2:hover {
 }
 
 .title_link_3 {
-    margin: 21px 0 0 0;
+    margin: 17px 0 0 0;
+    position: relative;
+    top: 4px;
 }
 
 .article_5 {
