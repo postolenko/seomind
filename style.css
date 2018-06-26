@@ -1951,9 +1951,9 @@ a.title_link_2:hover {
 }
 
 .title_link_3 {
-    margin: 17px 0 0 0;
+    margin: 20px 0 0 0;
     position: relative;
-    top: 4px;
+    top: 2px;
 }
 
 .article_5 {
@@ -1966,7 +1966,7 @@ a.title_link_2:hover {
 }
 
 .article_5 .img-box {
-    width: 23%;
+    width: 25%;
     height: 100%;
     overflow: hidden;
     position: absolute;
@@ -1988,14 +1988,15 @@ a.title_link_2:hover {
 
 .article_5 .description {
     float: right;
-    width: 77%;
+    width: 75%;
     padding: 4px 0 0 2%;
 }
 
 .article_5 .description p {
+    /*padding: 3px 0;*/
     padding: 7px 0;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 17px;
 }
 
 .thumbnails_5 {
@@ -2087,11 +2088,11 @@ a.title_link_2:hover {
 }
 
 .article_5_2 .img-box {
-    width: 24%;
+    width: 25%;
     height: 100%;
     overflow: hidden;
     position: absolute;
-    top: 5px;
+    top: 2px;
     left: unset;
     left: auto;
     right: 0;
@@ -2099,7 +2100,7 @@ a.title_link_2:hover {
 
 .article_5_2 .description {
     float: left;
-    width: 76%;
+    width: 75%;
     text-align: right;
     padding: 0 2% 0 0;
 }
