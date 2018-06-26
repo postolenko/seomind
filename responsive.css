@@ -1214,7 +1214,17 @@
 	}
 
 	.promo_inner_2 {
-		background-size: 100%;
+		/*background-size: 100%;*/
+		/*background-size: auto;*/
+		/*background-size: cover;*/
+	}
+
+	.promo_inner_2 .row {
+		height: 500px;
+	}
+
+	.promo_inner_3 .row {
+		height: 500px;
 	}
 
 	.promo_inner_3 {
@@ -1228,11 +1238,23 @@
 }
 
 @media only screen and (max-width: 1380px) {
+	.promo_inner_2 {
+		background-size: cover;
+	}
 
+	.promo_inner_3 {
+		background-size: cover;
+	}
 }
 
 @media only screen and (max-width: 1230px) {
+	.promo_inner_2 .row {
+		height: 400px;
+	}
 
+	.promo_inner_3 .row {
+		height: 400px;
+	}
 }
 
 @media only screen and (max-width: 1124px) {
@@ -1260,7 +1282,13 @@
 }
 
 @media only screen and (max-width: 600px) {
+	.promo_inner_2 .row {
+		height: 300px;
+	}
 
+	.promo_inner_3 .row {
+		height: 300px;
+	}
 }
 
 @media only screen and (max-width: 480px) {

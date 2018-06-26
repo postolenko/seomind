@@ -1993,7 +1993,6 @@ a.title_link_2:hover {
 }
 
 .article_5 .description p {
-    /*padding: 3px 0;*/
     padding: 7px 0;
     font-size: 16px;
     line-height: 17px;
@@ -3616,6 +3615,14 @@ a.title_link:hover {
 
 .promo_inner .h1_wrapp_4 {
     top: 84%;
+}
+
+.promo_inner_2 {
+    background-size: 100%;
+}
+
+.promo_inner_3 {
+    background-size: 100%;
 }
 
 .promo_inner_4 {
