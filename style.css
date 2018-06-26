@@ -1999,6 +1999,10 @@ a.title_link_2:hover {
     line-height: 17px;
 }
 
+.article_5 .description p:nth-child(1) {
+    padding-top: 5px;
+}
+
 .thumbnails_5 {
     margin: 12px -1% 0px -1%;
 }
